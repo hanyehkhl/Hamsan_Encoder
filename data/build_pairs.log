@@ -1,0 +1,30 @@
+→ PQuAD ...
+   48273 جفت، 0 سه‌تایی
+→ PersianQA ...
+   6306 جفت، 0 سه‌تایی
+→ synthetic-persian-sts ...
+Repo card metadata block was not found. Setting CardData to empty.
+Generating train split:   0%|          | 0/70155 [00:00<?, ? examples/s]Generating train split:  12%|█▏        | 8246/70155 [00:00<00:01, 39240.78 examples/s]Generating train split:  24%|██▎       | 16577/70155 [00:00<00:01, 47747.80 examples/s]Generating train split:  35%|███▌      | 24771/70155 [00:00<00:00, 51722.46 examples/s]Generating train split:  47%|████▋     | 33027/70155 [00:00<00:00, 52511.82 examples/s]Generating train split:  59%|█████▉    | 41401/70155 [00:00<00:00, 52933.92 examples/s]Generating train split:  71%|███████   | 49702/70155 [00:00<00:00, 52744.58 examples/s]Generating train split:  83%|████████▎ | 57966/70155 [00:01<00:00, 53706.85 examples/s]Generating train split:  94%|█████████▍| 66183/70155 [00:01<00:00, 51116.58 examples/s]Generating train split: 100%|██████████| 70155/70155 [00:01<00:00, 50518.98 examples/s]
+Generating test split:   0%|          | 0/12385 [00:00<?, ? examples/s]Generating test split:  67%|██████▋   | 8277/12385 [00:00<00:00, 50136.05 examples/s]Generating test split: 100%|██████████| 12385/12385 [00:00<00:00, 48282.80 examples/s]
+   0 جفت، 28062 سه‌تایی
+→ ParsiNLU entailment ...
+   297 جفت، 7 سه‌تایی
+→ Wikipedia fa ...
+   40000 جفت، 0 سه‌تایی
+→ Cuttlas ...
+Traceback (most recent call last):
+  File "C:\codes\github\Cuttlas_Encoder\scripts\build_pairs.py", line 233, in <module>
+    main()
+  File "C:\codes\github\Cuttlas_Encoder\scripts\build_pairs.py", line 208, in main
+    p, t = fn()
+           ^^^^
+  File "C:\codes\github\Cuttlas_Encoder\scripts\build_pairs.py", line 197, in <lambda>
+    ("Cuttlas", lambda: (from_cuttlas(), [])),
+                         ^^^^^^^^^^^^^^
+  File "C:\codes\github\Cuttlas_Encoder\scripts\build_pairs.py", line 152, in from_cuttlas
+    eval_docs = {d for l in EVAL_QA.open(encoding="utf-8") for d in json.loads(l)["doc_ids"]}
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'doc_id'
+'[WinError 10038] An operation was attempted on something that is not a socket' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.fa/train-00000-of-00004.parquet
+Retrying in 1s [Retry 1/5].
+EXIT 1

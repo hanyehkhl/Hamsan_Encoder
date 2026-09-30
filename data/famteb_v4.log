@@ -1,0 +1,401 @@
+10 دیتاست از MTEB(fas, v2): SynPerChatbotRAGFAQRetrieval, WikipediaRetrievalMultilingual, MSMARCO-FaHardNegatives, ArguAna-Fa.v2, FiQA2018-Fa.v2, SCIDOCS-Fa.v2, SciFact-Fa.v2, NeuCLIR2023RetrievalHardNegatives, Farsick, SynPerSTS
+
+=== models/hamsan-v4/final
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:   8%|▊         | 15/199 [00:00<00:01, 145.33it/s]Loading weights:  16%|█▌        | 32/199 [00:00<00:01, 139.32it/s]Loading weights:  31%|███       | 61/199 [00:00<00:00, 186.12it/s]Loading weights:  41%|████      | 82/199 [00:00<00:00, 193.26it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 409.71it/s]
+C:\codes\github\Hamsan_Encoder\.venv\Lib\site-packages\mteb\models\model_meta.py:956: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  embedding_dimensions = model.get_sentence_embedding_dimension()
+C:\codes\github\Hamsan_Encoder\.venv\Lib\site-packages\mteb\models\model_meta.py:916: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  embed_dim=model.get_sentence_embedding_dimension(),
+C:\codes\github\Hamsan_Encoder\.venv\Lib\site-packages\mteb\models\sentence_transformer_wrapper.py:315: UserWarning: Model prompts specified, these will overwrite the default model prompts. Current prompts will be:
+ {'query': 'query: ', 'document': 'passage: ', 'STS': 'query: ', 'PairClassification': 'query: ', 'Classification': 'query: ', 'Clustering': 'query: '}
+  self.model_prompts = _resolve_model_prompts(self.model, model_prompts)
+Evaluating tasks:   0%|          | 0/10 [00:00<?, ?it/s]Evaluating task SynPerChatbotRAGFAQRetrieval:   0%|          | 0/10 [00:00<?, ?it/s]Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\default\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:33:49 2026).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\default\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:33:49 2026).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\corpus\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:34:35 2026).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\corpus\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:34:35 2026).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\queries\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:34:21 2026).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\queries\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:34:21 2026).
+Evaluating task SynPerChatbotRAGFAQRetrieval:  10%|█         | 1/10 [00:33<04:59, 33.29s/it]Evaluating task WikipediaRetrievalMultilingual:  10%|█         | 1/10 [00:33<04:59, 33.29s/it]Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-qrels' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-qrels\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:14 2026).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-qrels' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-qrels\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:14 2026).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-corpus' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-corpus\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:30 2026).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-corpus' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-corpus\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:30 2026).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-queries' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-queries\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:26 2026).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-queries' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-queries\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:26 2026).
+Evaluating task WikipediaRetrievalMultilingual:  20%|██        | 2/10 [01:55<08:17, 62.17s/it]Evaluating task MSMARCO-FaHardNegatives:  20%|██        | 2/10 [01:55<08:17, 62.17s/it]       Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\default\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:10 2026).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\default\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:10 2026).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\corpus\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:38 2026).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\corpus\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:38 2026).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\queries\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:37 2026).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\queries\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:37 2026).
+Evaluating task MSMARCO-FaHardNegatives:  30%|███       | 3/10 [02:42<06:27, 55.38s/it]Evaluating task ArguAna-Fa.v2:  30%|███       | 3/10 [02:42<06:27, 55.38s/it]          Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\default\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:38:37 2026).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\default\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:38:37 2026).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\corpus\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:39:40 2026).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\corpus\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:39:40 2026).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\queries\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:39:19 2026).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\queries\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:39:19 2026).
+Evaluating task ArguAna-Fa.v2:  40%|████      | 4/10 [04:54<08:33, 85.59s/it]Evaluating task FiQA2018-Fa.v2:  40%|████      | 4/10 [04:54<08:33, 85.59s/it]Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\default\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:42:00 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\default\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:42:00 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\corpus\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:55:01 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\corpus\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:55:01 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\queries\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:44:23 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\queries\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:44:23 2026).
+EXIT 127
+=== resume Sun Sep 27 09:01:35 USMST 2026 ===
+10 دیتاست از MTEB(fas, v2): SynPerChatbotRAGFAQRetrieval, WikipediaRetrievalMultilingual, MSMARCO-FaHardNegatives, ArguAna-Fa.v2, FiQA2018-Fa.v2, SCIDOCS-Fa.v2, SciFact-Fa.v2, NeuCLIR2023RetrievalHardNegatives, Farsick, SynPerSTS
+
+=== models/hamsan-v4/final
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  12%|█▏        | 24/199 [00:00<00:01, 156.92it/s]Loading weights:  20%|██        | 40/199 [00:00<00:01, 117.12it/s]Loading weights:  26%|██▌       | 52/199 [00:00<00:01, 110.86it/s]Loading weights:  32%|███▏      | 64/199 [00:00<00:01, 110.14it/s]Loading weights:  38%|███▊      | 75/199 [00:00<00:01, 93.68it/s] Loading weights: 100%|██████████| 199/199 [00:00<00:00, 278.79it/s]
+C:\codes\github\Hamsan_Encoder\.venv\Lib\site-packages\mteb\models\model_meta.py:956: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  embedding_dimensions = model.get_sentence_embedding_dimension()
+C:\codes\github\Hamsan_Encoder\.venv\Lib\site-packages\mteb\models\model_meta.py:916: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  embed_dim=model.get_sentence_embedding_dimension(),
+C:\codes\github\Hamsan_Encoder\.venv\Lib\site-packages\mteb\models\sentence_transformer_wrapper.py:315: UserWarning: Model prompts specified, these will overwrite the default model prompts. Current prompts will be:
+ {'query': 'query: ', 'document': 'passage: ', 'STS': 'query: ', 'PairClassification': 'query: ', 'Classification': 'query: ', 'Clustering': 'query: '}
+  self.model_prompts = _resolve_model_prompts(self.model, model_prompts)
+Evaluating tasks:   0%|          | 0/10 [00:00<?, ?it/s]Evaluating task SynPerChatbotRAGFAQRetrieval:   0%|          | 0/10 [00:00<?, ?it/s]Evaluating task WikipediaRetrievalMultilingual:   0%|          | 0/10 [00:00<?, ?it/s]Evaluating task MSMARCO-FaHardNegatives:   0%|          | 0/10 [00:00<?, ?it/s]       Evaluating task ArguAna-Fa.v2:   0%|          | 0/10 [00:00<?, ?it/s]          Evaluating task ArguAna-Fa.v2:  40%|████      | 4/10 [00:00<00:00, 35.88it/s]Evaluating task FiQA2018-Fa.v2:  40%|████      | 4/10 [00:00<00:00, 35.88it/s]Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\default\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:42:00 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\default\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:42:00 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\corpus\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:55:01 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\corpus\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:55:01 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\queries\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:44:23 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\queries\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:44:23 2026).
+Evaluating task FiQA2018-Fa.v2:  40%|████      | 4/10 [00:11<00:00, 35.88it/s]Evaluating task FiQA2018-Fa.v2:  50%|█████     | 5/10 [11:45<15:28, 185.65s/it]Evaluating task SCIDOCS-Fa.v2:  50%|█████     | 5/10 [11:45<15:28, 185.65s/it] Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\default\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:57:06 2026).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\default\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:57:06 2026).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\corpus\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:58:26 2026).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\corpus\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:58:26 2026).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\queries\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:58:14 2026).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\queries\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:58:14 2026).
+Evaluating task SCIDOCS-Fa.v2:  60%|██████    | 6/10 [19:40<17:39, 264.78s/it]Evaluating task SciFact-Fa.v2:  60%|██████    | 6/10 [19:40<17:39, 264.78s/it]Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\default\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:06:27 2026).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\default\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:06:27 2026).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\corpus\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:07:07 2026).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\corpus\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:07:07 2026).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\queries\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:07:04 2026).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\queries\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:07:04 2026).
+Evaluating task SciFact-Fa.v2:  70%|███████   | 7/10 [22:20<11:45, 235.18s/it]Evaluating task NeuCLIR2023RetrievalHardNegatives:  70%|███████   | 7/10 [22:20<11:45, 235.18s/it]Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-qrels' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-qrels\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:21 2026).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-qrels' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-qrels\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:21 2026).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-corpus' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-corpus\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:53 2026).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-corpus' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-corpus\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:53 2026).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-queries' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-queries\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:49 2026).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-queries' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-queries\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:49 2026).
+Evaluating task NeuCLIR2023RetrievalHardNegatives:  80%|████████  | 8/10 [30:07<10:03, 301.57s/it]Evaluating task Farsick:  80%|████████  | 8/10 [30:07<10:03, 301.57s/it]                          Using the latest cached version of the dataset since MCINext/farsick-sts couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___farsick-sts\default\0.0.0\f8b8d630f631c6c16b7bc3cb924bdf62a51bed06 (last modified on Fri Sep 25 06:15:54 2026).
+Evaluating task Farsick:  90%|█████████ | 9/10 [32:51<04:21, 261.62s/it]Evaluating task SynPerSTS:  90%|█████████ | 9/10 [32:51<04:21, 261.62s/it]Using the latest cached version of the dataset since MCINext/synthetic-persian-sts couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-sts\default\0.0.0\914047db08928b5326d8b106583dc563b73d1ecf (last modified on Fri Sep 25 06:17:11 2026).
+Evaluating task SynPerSTS: 100%|██████████| 10/10 [35:02<00:00, 223.52s/it]Evaluating task SynPerSTS: 100%|██████████| 10/10 [35:02<00:00, 210.28s/it]
+
+=== models/hamsan-v4-merge-0.7
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:   2%|▏         | 4/199 [00:00<00:06, 30.75it/s]Loading weights:  11%|█         | 22/199 [00:00<00:01, 107.06it/s]Loading weights:  17%|█▋        | 34/199 [00:00<00:02, 79.87it/s] Loading weights:  24%|██▎       | 47/199 [00:00<00:01, 93.48it/s]Loading weights:  29%|██▉       | 58/199 [00:00<00:02, 66.69it/s]Loading weights:  83%|████████▎ | 166/199 [00:00<00:00, 292.91it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 221.06it/s]
+C:\codes\github\Hamsan_Encoder\.venv\Lib\site-packages\mteb\models\model_meta.py:956: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  embedding_dimensions = model.get_sentence_embedding_dimension()
+C:\codes\github\Hamsan_Encoder\.venv\Lib\site-packages\mteb\models\model_meta.py:916: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  embed_dim=model.get_sentence_embedding_dimension(),
+C:\codes\github\Hamsan_Encoder\.venv\Lib\site-packages\mteb\models\sentence_transformer_wrapper.py:315: UserWarning: Model prompts specified, these will overwrite the default model prompts. Current prompts will be:
+ {'query': 'query: ', 'document': 'passage: ', 'STS': 'query: ', 'PairClassification': 'query: ', 'Classification': 'query: ', 'Clustering': 'query: '}
+  self.model_prompts = _resolve_model_prompts(self.model, model_prompts)
+Evaluating tasks:   0%|          | 0/10 [00:00<?, ?it/s]Evaluating task SynPerChatbotRAGFAQRetrieval:   0%|          | 0/10 [00:00<?, ?it/s]Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\default\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:33:49 2026).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\default\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:33:49 2026).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\corpus\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:34:35 2026).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\corpus\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:34:35 2026).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\queries\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:34:21 2026).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\queries\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:34:21 2026).
+Evaluating task SynPerChatbotRAGFAQRetrieval:  10%|█         | 1/10 [00:47<07:06, 47.43s/it]Evaluating task WikipediaRetrievalMultilingual:  10%|█         | 1/10 [00:47<07:06, 47.43s/it]Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-qrels' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-qrels\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:14 2026).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-qrels' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-qrels\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:14 2026).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-corpus' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-corpus\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:30 2026).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-corpus' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-corpus\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:30 2026).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-queries' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-queries\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:26 2026).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-queries' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-queries\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:26 2026).
+Evaluating task WikipediaRetrievalMultilingual:  20%|██        | 2/10 [02:36<11:07, 83.48s/it]Evaluating task MSMARCO-FaHardNegatives:  20%|██        | 2/10 [02:36<11:07, 83.48s/it]       Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\default\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:10 2026).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\default\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:10 2026).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\corpus\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:38 2026).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\corpus\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:38 2026).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\queries\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:37 2026).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\queries\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:37 2026).
+Evaluating task MSMARCO-FaHardNegatives:  30%|███       | 3/10 [03:39<08:40, 74.32s/it]Evaluating task ArguAna-Fa.v2:  30%|███       | 3/10 [03:39<08:40, 74.32s/it]          Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\default\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:38:37 2026).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\default\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:38:37 2026).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\corpus\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:39:40 2026).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\corpus\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:39:40 2026).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\queries\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:39:19 2026).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\queries\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:39:19 2026).
+Evaluating task ArguAna-Fa.v2:  40%|████      | 4/10 [06:05<10:14, 102.44s/it]Evaluating task FiQA2018-Fa.v2:  40%|████      | 4/10 [06:05<10:14, 102.44s/it]Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\default\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:42:00 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\default\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:42:00 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\corpus\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:55:01 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\corpus\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:55:01 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\queries\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:44:23 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\queries\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:44:23 2026).
+Evaluating task FiQA2018-Fa.v2:  50%|█████     | 5/10 [15:54<23:10, 278.08s/it]Evaluating task SCIDOCS-Fa.v2:  50%|█████     | 5/10 [15:54<23:10, 278.08s/it] Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\default\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:57:06 2026).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\default\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:57:06 2026).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\corpus\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:58:26 2026).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\corpus\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:58:26 2026).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\queries\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:58:14 2026).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\queries\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:58:14 2026).
+Evaluating task SCIDOCS-Fa.v2:  60%|██████    | 6/10 [22:27<21:08, 317.14s/it]Evaluating task SciFact-Fa.v2:  60%|██████    | 6/10 [22:27<21:08, 317.14s/it]Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\default\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:06:27 2026).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\default\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:06:27 2026).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\corpus\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:07:07 2026).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\corpus\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:07:07 2026).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\queries\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:07:04 2026).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\queries\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:07:04 2026).
+Evaluating task SciFact-Fa.v2:  70%|███████   | 7/10 [24:20<12:31, 250.46s/it]Evaluating task NeuCLIR2023RetrievalHardNegatives:  70%|███████   | 7/10 [24:20<12:31, 250.46s/it]Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-qrels' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-qrels\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:21 2026).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-qrels' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-qrels\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:21 2026).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-corpus' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-corpus\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:53 2026).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-corpus' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-corpus\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:53 2026).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-queries' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-queries\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:49 2026).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-queries' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-queries\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:49 2026).
+Evaluating task NeuCLIR2023RetrievalHardNegatives:  80%|████████  | 8/10 [29:57<09:16, 278.04s/it]Evaluating task Farsick:  80%|████████  | 8/10 [29:57<09:16, 278.04s/it]                          Using the latest cached version of the dataset since MCINext/farsick-sts couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___farsick-sts\default\0.0.0\f8b8d630f631c6c16b7bc3cb924bdf62a51bed06 (last modified on Fri Sep 25 06:15:54 2026).
+Evaluating task Farsick:  90%|█████████ | 9/10 [30:32<03:21, 201.98s/it]Evaluating task SynPerSTS:  90%|█████████ | 9/10 [30:32<03:21, 201.98s/it]Using the latest cached version of the dataset since MCINext/synthetic-persian-sts couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-sts\default\0.0.0\914047db08928b5326d8b106583dc563b73d1ecf (last modified on Fri Sep 25 06:17:11 2026).
+Evaluating task SynPerSTS: 100%|██████████| 10/10 [31:30<00:00, 157.55s/it]Evaluating task SynPerSTS: 100%|██████████| 10/10 [31:30<00:00, 189.06s/it]
+
+=== models/hamsan-v4-merge-0.5
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:   5%|▌         | 10/199 [00:00<00:02, 84.28it/s]Loading weights:  10%|▉         | 19/199 [00:00<00:02, 71.21it/s]Loading weights:  14%|█▍        | 28/199 [00:00<00:02, 61.90it/s]Loading weights:  19%|█▊        | 37/199 [00:00<00:02, 69.12it/s]Loading weights:  23%|██▎       | 45/199 [00:00<00:02, 64.59it/s]Loading weights:  29%|██▊       | 57/199 [00:00<00:01, 77.78it/s]Loading weights:  36%|███▌      | 72/199 [00:00<00:01, 84.04it/s]Loading weights:  41%|████      | 82/199 [00:01<00:01, 87.61it/s]Loading weights: 100%|██████████| 199/199 [00:01<00:00, 185.98it/s]
+C:\codes\github\Hamsan_Encoder\.venv\Lib\site-packages\mteb\models\model_meta.py:956: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  embedding_dimensions = model.get_sentence_embedding_dimension()
+C:\codes\github\Hamsan_Encoder\.venv\Lib\site-packages\mteb\models\model_meta.py:916: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  embed_dim=model.get_sentence_embedding_dimension(),
+C:\codes\github\Hamsan_Encoder\.venv\Lib\site-packages\mteb\models\sentence_transformer_wrapper.py:315: UserWarning: Model prompts specified, these will overwrite the default model prompts. Current prompts will be:
+ {'query': 'query: ', 'document': 'passage: ', 'STS': 'query: ', 'PairClassification': 'query: ', 'Classification': 'query: ', 'Clustering': 'query: '}
+  self.model_prompts = _resolve_model_prompts(self.model, model_prompts)
+Evaluating tasks:   0%|          | 0/10 [00:00<?, ?it/s]Evaluating task SynPerChatbotRAGFAQRetrieval:   0%|          | 0/10 [00:00<?, ?it/s]Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\default\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:33:49 2026).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\default\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:33:49 2026).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\corpus\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:34:35 2026).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\corpus\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:34:35 2026).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\queries\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:34:21 2026).
+Using the latest cached version of the dataset since MCINext/synthetic-persian-chatbot-rag-faq-retrieval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-chatbot-rag-faq-retrieval\queries\0.0.0\9d32af6540970e2845028cbfffe6b0d0e8f52428 (last modified on Fri Sep 25 05:34:21 2026).
+Evaluating task SynPerChatbotRAGFAQRetrieval:  10%|█         | 1/10 [00:42<06:22, 42.45s/it]Evaluating task WikipediaRetrievalMultilingual:  10%|█         | 1/10 [00:42<06:22, 42.45s/it]Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-qrels' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-qrels\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:14 2026).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-qrels' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-qrels\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:14 2026).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-corpus' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-corpus\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:30 2026).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-corpus' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-corpus\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:30 2026).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-queries' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-queries\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:26 2026).
+Using the latest cached version of the dataset since mteb/WikipediaRetrievalMultilingual couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fa-queries' at C:\Users\hp\.cache\huggingface\datasets\mteb___wikipedia_retrieval_multilingual\fa-queries\0.0.0\5f6c91d21f2f5b9afb663858d19848fbd223c775 (last modified on Fri Sep 25 05:35:26 2026).
+Evaluating task WikipediaRetrievalMultilingual:  20%|██        | 2/10 [02:39<11:32, 86.56s/it]Evaluating task MSMARCO-FaHardNegatives:  20%|██        | 2/10 [02:39<11:32, 86.56s/it]       Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\default\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:10 2026).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\default\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:10 2026).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\corpus\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:38 2026).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\corpus\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:38 2026).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\queries\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:37 2026).
+Using the latest cached version of the dataset since MCINext/MSMARCO_FA_test_top_250_only_w_correct-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___msmarco_fa_test_top_250_only_w_correct-v2\queries\0.0.0\1c67fef70e75a14e416a5da6e38d0b913f9fcc62 (last modified on Fri Sep 25 05:37:37 2026).
+Evaluating task MSMARCO-FaHardNegatives:  30%|███       | 3/10 [03:49<09:12, 78.95s/it]Evaluating task ArguAna-Fa.v2:  30%|███       | 3/10 [03:49<09:12, 78.95s/it]          Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\default\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:38:37 2026).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\default\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:38:37 2026).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\corpus\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:39:40 2026).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\corpus\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:39:40 2026).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\queries\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:39:19 2026).
+Using the latest cached version of the dataset since MCINext/arguana-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___arguana-fa-v2\queries\0.0.0\3c742a98c0c17f7041acf0895680e0ec0000786f (last modified on Fri Sep 25 05:39:19 2026).
+Evaluating task ArguAna-Fa.v2:  40%|████      | 4/10 [06:57<12:10, 121.76s/it]Evaluating task FiQA2018-Fa.v2:  40%|████      | 4/10 [06:57<12:10, 121.76s/it]Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\default\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:42:00 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\default\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:42:00 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\corpus\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:55:01 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\corpus\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:55:01 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\queries\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:44:23 2026).
+Using the latest cached version of the dataset since MCINext/fiqa-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___fiqa-fa-v2\queries\0.0.0\3443316360bb14c1ef68f609d6fe8f89b117977d (last modified on Fri Sep 25 05:44:23 2026).
+Evaluating task FiQA2018-Fa.v2:  50%|█████     | 5/10 [18:18<26:56, 323.37s/it]Evaluating task SCIDOCS-Fa.v2:  50%|█████     | 5/10 [18:18<26:56, 323.37s/it] Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\default\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:57:06 2026).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\default\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:57:06 2026).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\corpus\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:58:26 2026).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\corpus\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:58:26 2026).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\queries\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:58:14 2026).
+Using the latest cached version of the dataset since MCINext/scidocs-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scidocs-fa-v2\queries\0.0.0\930aea79c05ad5c889399c41132229c1047c8c93 (last modified on Fri Sep 25 05:58:14 2026).
+Evaluating task SCIDOCS-Fa.v2:  60%|██████    | 6/10 [25:21<23:49, 357.50s/it]Evaluating task SciFact-Fa.v2:  60%|██████    | 6/10 [25:21<23:49, 357.50s/it]Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\default\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:06:27 2026).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\default\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:06:27 2026).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\corpus\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:07:07 2026).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'corpus' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\corpus\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:07:07 2026).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\queries\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:07:04 2026).
+Using the latest cached version of the dataset since MCINext/scifact-fa-v2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'queries' at C:\Users\hp\.cache\huggingface\datasets\MCINext___scifact-fa-v2\queries\0.0.0\75937d5e71adf8040e511fab41e06bc88825a52b (last modified on Fri Sep 25 06:07:04 2026).
+Evaluating task SciFact-Fa.v2:  70%|███████   | 7/10 [27:11<13:49, 276.60s/it]Evaluating task NeuCLIR2023RetrievalHardNegatives:  70%|███████   | 7/10 [27:11<13:49, 276.60s/it]Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-qrels' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-qrels\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:21 2026).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-qrels' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-qrels\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:21 2026).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-corpus' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-corpus\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:53 2026).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-corpus' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-corpus\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:53 2026).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-queries' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-queries\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:49 2026).
+Using the latest cached version of the dataset since mteb/NeuCLIR2023RetrievalHardNegatives couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'fas-queries' at C:\Users\hp\.cache\huggingface\datasets\mteb___neu_clir2023_retrieval_hard_negatives\fas-queries\0.0.0\efb44bb789b9f82223aa819e18dba3748fd09e33 (last modified on Fri Sep 25 06:09:49 2026).
+Evaluating task NeuCLIR2023RetrievalHardNegatives:  80%|████████  | 8/10 [32:58<09:57, 298.98s/it]Evaluating task Farsick:  80%|████████  | 8/10 [32:58<09:57, 298.98s/it]                          Using the latest cached version of the dataset since MCINext/farsick-sts couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___farsick-sts\default\0.0.0\f8b8d630f631c6c16b7bc3cb924bdf62a51bed06 (last modified on Fri Sep 25 06:15:54 2026).
+Evaluating task Farsick:  90%|█████████ | 9/10 [33:35<03:37, 217.15s/it]Evaluating task SynPerSTS:  90%|█████████ | 9/10 [33:35<03:37, 217.15s/it]Using the latest cached version of the dataset since MCINext/synthetic-persian-sts couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\hp\.cache\huggingface\datasets\MCINext___synthetic-persian-sts\default\0.0.0\914047db08928b5326d8b106583dc563b73d1ecf (last modified on Fri Sep 25 06:17:11 2026).
+Evaluating task SynPerSTS: 100%|██████████| 10/10 [34:31<00:00, 167.38s/it]Evaluating task SynPerSTS: 100%|██████████| 10/10 [34:31<00:00, 207.19s/it]
+
+دیتاست                                               hamsan-v4   hamsan-v4-merge-0.7   hamsan-v4-merge-0.5
+--- Retrieval
+SynPerChatbotRAGFAQRetrieval                            0.2562                0.2495                0.2551
+WikipediaRetrievalMultilingual                          0.8317                0.8563                0.8710
+MSMARCO-FaHardNegatives                                 0.6367                0.6482                0.6661
+ArguAna-Fa.v2                                           0.4429                0.4451                0.4257
+FiQA2018-Fa.v2                                          0.2119                0.2209                0.2242
+SCIDOCS-Fa.v2                                           0.1342                0.1329                0.1297
+SciFact-Fa.v2                                           0.5384                0.5543                0.5706
+NeuCLIR2023RetrievalHardNegatives                       0.5652                0.5554                0.5368
+میانگین (8 دیتاست)                                      0.4522                0.4578                0.4599
+--- STS
+Farsick                                                 0.7014                0.7015                0.6970
+SynPerSTS                                               0.8671                0.8751                0.8761
+میانگین (2 دیتاست)                                      0.7842                0.7883                0.7866
+EXIT 0
