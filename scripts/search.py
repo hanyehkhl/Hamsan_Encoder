@@ -24,7 +24,7 @@ from pathlib import Path
 
 from sentence_transformers import SentenceTransformer
 
-DEFAULT_MODEL = Path(__file__).resolve().parent.parent / "models" / "hamsan-v3" / "final"
+DEFAULT_MODEL = Path(__file__).resolve().parent.parent / "models" / "hamsan-v6-merge-0.7"
 
 
 def main() -> None:

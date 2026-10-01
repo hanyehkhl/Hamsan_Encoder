@@ -1,0 +1,17 @@
+10 دیتاست از MTEB(fas, v2): SynPerChatbotRAGFAQRetrieval, WikipediaRetrievalMultilingual, MSMARCO-FaHardNegatives, ArguAna-Fa.v2, FiQA2018-Fa.v2, SCIDOCS-Fa.v2, SciFact-Fa.v2, NeuCLIR2023RetrievalHardNegatives, Farsick, SynPerSTS
+
+دیتاست                                    multilingual-e5-base   hamsan-v4-merge-0.7             hamsan-v6   hamsan-v6-merge-0.7
+--- Retrieval
+SynPerChatbotRAGFAQRetrieval                            0.2848                0.2495                0.2899                0.2866
+WikipediaRetrievalMultilingual                          0.8811                0.8563                0.8468                0.8614
+MSMARCO-FaHardNegatives                                 0.6667                0.6482                0.6054                0.6280
+ArguAna-Fa.v2                                           0.3384                0.4451                0.4887                0.4940
+FiQA2018-Fa.v2                                          0.2298                0.2209                0.2202                0.2271
+SCIDOCS-Fa.v2                                           0.1182                0.1329                0.1383                0.1408
+SciFact-Fa.v2                                           0.5818                0.5543                0.5624                0.5821
+NeuCLIR2023RetrievalHardNegatives                       0.5302                0.5554                0.5469                0.5606
+میانگین (8 دیتاست)                                      0.4539                0.4578                0.4623                0.4726
+--- STS
+Farsick                                                 0.6863                0.7015                0.7017                0.7069
+SynPerSTS                                               0.8688                0.8751                0.8478                0.8525
+میانگین (2 دیتاست)                                      0.7776                0.7883                0.7748                0.7797

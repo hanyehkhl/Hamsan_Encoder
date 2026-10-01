@@ -24,7 +24,7 @@ from sentence_transformers import SentenceTransformer
 
 from evaluate import ROOT, load_corpus, prefixes
 
-MODELS = ["intfloat/multilingual-e5-base", str(ROOT / "models" / "hamsan-v1" / "final")]
+MODELS = ["intfloat/multilingual-e5-base", str(ROOT / "models" / "hamsan-v6-merge-0.7")]
 TOP_K = 3
 
 # (سؤال، سندهای درست)
